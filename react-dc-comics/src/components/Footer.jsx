@@ -25,13 +25,13 @@ const Footer = () => {
             <li><a href="#">Videos</a></li>
             <li><a href="#">News</a></li>
           </ul>
-        </div>
         <div className="footer-column shop">
           <h4>SHOP</h4>
           <ul>
             <li><a href="#">Shop DC</a></li>
             <li><a href="#">Shop DC Collectibles</a></li>
           </ul>
+        </div>
         </div>
           
         <div class="footer-column">
@@ -67,14 +67,15 @@ const Footer = () => {
     
     <div className="footer-social">
     <button className="footer-signup" >SIGN-UP NOW!</button>
-    
-      <span className='span'>FOLLOW US</span>
-      <a href="#"><img src={imgf1} alt="" /></a>
-      <a href="#"><img src={imgf2} alt="" /></a>
-      <a href="#"><img src={imgf3} alt="" /></a>
-      <a href="#"><img src={imgf4} alt="" /></a>
-      <a href="#"><img src={imgf5} alt="" /></a>
-      <a href="#"><img src={imgf6} alt="" /></a>
+    <div>
+        <span className='span'>FOLLOW US</span>
+        
+        <a href="#"><img src={imgf2} alt="" /></a>
+        <a href="#"><img src={imgf3} alt="" /></a>
+        <a href="#"><img src={imgf4} alt="" /></a>
+        <a href="#"><img src={imgf5} alt="" /></a>
+        <a href="#"><img src={imgf6} alt="" /></a>
+    </div>
       
       
      

@@ -93,6 +93,7 @@ body {
 
 .footer-links {
   display: flex;
+  justify-content: center;
   /* flex-wrap: wrap; */
   gap: 40px;
   
@@ -157,8 +158,12 @@ body {
   gap: 15px;
 }
 
-.footer-social span {
+.footer-social div span {
   font-weight: bold;
+  margin-right: 10px;
+}
+.footer-social div a {
+ 
   margin-right: 10px;
 }
 
