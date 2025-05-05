@@ -10,6 +10,7 @@ function App() {
     <Fragment>
       <Header></Header>
       <Main></Main>
+      <Footer></Footer>
     </Fragment> 
   )
 }
