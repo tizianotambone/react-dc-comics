@@ -60,7 +60,7 @@ const Footer = () => {
             <li><a href="#">DC Power Visa</a></li>
           </ul>
         </div>
-        <img src={imgf7} alt="" />
+        <img src={imgf7} alt="" className='imgf7'/>
        
       </div>
     </div>
