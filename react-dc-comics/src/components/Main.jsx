@@ -15,7 +15,7 @@ const Main = () => {
             </section>
             
             <section className="blue-main">
-                <div class="img1">
+                <div className="img1">
                     <img src={img1} alt="" />
                     <span>Digital Comics</span>
                 </div>
