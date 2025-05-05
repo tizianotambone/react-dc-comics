@@ -1,10 +1,17 @@
 
+import { Fragment } from 'react'
 import './App.css'
 import Header from './components/header'  
+import Main from './components/Main'
 
 
 function App() {
-  return <Header></Header> 
+  return (
+    <Fragment>
+      <Header></Header>
+      <Main></Main>
+    </Fragment> 
+  )
 }
 
 export default App
