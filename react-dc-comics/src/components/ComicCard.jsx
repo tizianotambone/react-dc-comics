@@ -1,11 +1,17 @@
 import React from 'react'
+import ListComix from './ListComix'
 
-const ComicCard = () => {
+const ComicCard = ({props}) => {
   return (
-    <div className="comic-card">
-      <img src="" alt="" />
-      <div className='titol'>titolo card</div>
-    </div>
+     
+        <div className="comic-card">
+            <img src={props.thumb} alt="" />
+            <div className='titol'>
+                <h2>{props.title}</h2>
+            </div>
+        </div>
+        
+    
   )
 }
 

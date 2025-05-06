@@ -5,6 +5,7 @@ import img3 from '../assets/img/buy-comics-shop-locator.png'
 import img4 from '../assets/img/buy-comics-subscriptions.png'
 import img5 from '../assets/img/buy-dc-power-visa.svg'
 import ComicCard from './ComicCard'
+import ListComix from './ListComix'
 
 
 const Main = () => {
@@ -13,7 +14,9 @@ const Main = () => {
 
             <section className="black-main">
                 <div className="card">
-                    <ComicCard />
+                    <div className='containerCard'>  
+                        <ComicCard props={ListComix[0]} />
+                    </div>
                 </div>
             </section>
             

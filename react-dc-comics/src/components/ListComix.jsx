@@ -1,8 +1,7 @@
-import React from 'react'
 
-const ListComix = () => {
-  return (
-    comics = [
+
+const ListComix = 
+     [
         {
           id: 1,
           title: "Action Comics #1000: The Deluxe Edition",
@@ -157,7 +156,7 @@ const ListComix = () => {
         },
       ]
       
-  )
-}
+  
+
 
 export default ListComix
