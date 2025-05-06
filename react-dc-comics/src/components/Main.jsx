@@ -4,6 +4,7 @@ import img2 from '../assets/img/buy-comics-merchandise.png'
 import img3 from '../assets/img/buy-comics-shop-locator.png'
 import img4 from '../assets/img/buy-comics-subscriptions.png'
 import img5 from '../assets/img/buy-dc-power-visa.svg'
+import jumbo from '../assets/img/jumbotron.jpg'
 import ComicCard from './ComicCard'
 import ListComix from './ListComix'
 
@@ -11,13 +12,21 @@ import ListComix from './ListComix'
 const Main = () => {
     return (
         <main>
-
-            <section className="black-main">
-                <div className="card">
+            <section className="black-main">        
                     <div className='containerCard'>  
                         <ComicCard props={ListComix[0]} />
-                    </div>
-                </div>
+                        <ComicCard props={ListComix[1]} />
+                        <ComicCard props={ListComix[2]} />
+                        <ComicCard props={ListComix[3]} />
+                        <ComicCard props={ListComix[4]} />
+                        <ComicCard props={ListComix[5]} />
+                        <ComicCard props={ListComix[6]} />
+                        <ComicCard props={ListComix[7]} />
+                        <ComicCard props={ListComix[8]} />
+                        <ComicCard props={ListComix[9]} />
+                        <ComicCard props={ListComix[10]} />
+                        <ComicCard props={ListComix[11]} />
+                    </div>              
             </section>
             
             <section className="blue-main">

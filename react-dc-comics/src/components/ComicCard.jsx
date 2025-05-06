@@ -7,7 +7,7 @@ const ComicCard = ({props}) => {
         <div className="comic-card">
             <img src={props.thumb} alt="" />
             <div className='titol'>
-                <h2>{props.title}</h2>
+                {props.title}
             </div>
         </div>
         
