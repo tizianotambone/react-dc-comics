@@ -4,6 +4,7 @@ import img2 from '../assets/img/buy-comics-merchandise.png'
 import img3 from '../assets/img/buy-comics-shop-locator.png'
 import img4 from '../assets/img/buy-comics-subscriptions.png'
 import img5 from '../assets/img/buy-dc-power-visa.svg'
+import ComicCard from './ComicCard'
 
 
 const Main = () => {
@@ -11,7 +12,9 @@ const Main = () => {
         <main>
 
             <section className="black-main">
-                <h2>--&gt; Content goes here &lt;--</h2>
+                <div className="card">
+                    <ComicCard />
+                </div>
             </section>
             
             <section className="blue-main">
