@@ -1,7 +1,7 @@
 import React from 'react'
 import ListComix from './ListComix'
 
-const ComicCard = ({props}) => {
+const ComicCard = (props) => {
   return (
      
         <div className="comic-card">

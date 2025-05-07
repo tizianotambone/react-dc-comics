@@ -1,6 +1,10 @@
 
 
-const ListComix = 
+import React from 'react'
+import ComicCard from './ComicCard'
+
+function ListComix() {
+    const Comix = 
      [
         {
           id: 1,
@@ -155,8 +159,19 @@ const ListComix =
           writers: ["Joëlle Jones"],
         },
       ]
-      
-  
-
+  return (
+    
+     Comix.map((comic) => (
+        <ComicCard 
+          key={comic.id}
+          title={comic.title}
+          thumb={comic.thumb}
+         />
+        ))
+   
+    
+    
+  )
+}
 
 export default ListComix
